@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <style>
+        .li {
+            list-style: disc;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                aria-selected="true">Overview</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                aria-selected="false">Specifications</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                aria-selected="false">Reviews(0)</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <!-- <p
+                style=" font-size: 35px; font-family:'Courier New', Courier, monospace ; margin-bottom: 0px;text-decoration: underline;text-decoration-thickness: 1px;">
+                Description:-</p> -->
+            <p style="padding:20px 20px; text-align: justify;">
+                The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed
+                specifically for the creative professional, this display provides more space for easier access to all
+                the tools and palettes needed to edit, format and composite
+                your work. Combine this display with a Mac Pro, MacBook Pro, or PowerMac G5 and there's no limit to what
+                you can achieve.<br><br> The Cinema HD features an active-matrix liquid crystal display that produces
+                flicker-free
+                images that deliver twice the brightness, twice the sharpness and twice the contrast ratio of a typical
+                CRT display. Unlike other flat panels, it's designed with a pure digital interface to deliver
+                distortion-free images that never need
+                adjusting. With over 4 million digital pixels, the display is uniquely suited for scientific and
+                technical applications such as visualizing molecular structures or analyzing geological data. Offering
+                accurate, brilliant color performance,
+                the Cinema HD delivers up to 16.7 million colors across a wide gamut allowing you to see subtle nuances
+                between colors from soft pastels to rich jewel tones.<br><br> A wide viewing angle ensures uniform color
+                from edge to edge. Apple's
+                ColorSync technology allows you to create custom profiles to maintain consistent color onscreen and in
+                print. The result: You can confidently use this display in all your color-critical applications. Housed
+                in a new aluminum design, the
+                display has a very thin bezel that enhances visual accuracy. Each display features two FireWire 400
+                ports and two USB 2.0 ports, making attachment of desktop peripherals, such as iSight, iPod, digital and
+                still cameras, hard drives, printers
+                and scanners, even more accessible and convenient. Taking advantage of the much thinner and lighter
+                footprint of an LCD, the new displays support the VESA (Video Electronics Standards Association)
+                mounting interface standard. Customers
+                with the optional Cinema Display VESA Mount Adapter kit gain the flexibility to mount their display in
+                locations most appropriate for their work environment. The Cinema HD features a single cable design with
+                elegant breakout for the USB
+                2.0, FireWire 400 and a pure digital connection using the industry standard Digital Video Interface
+                (DVI) interface. The DVI connection allows for a direct pure-digital connection.
+            </p>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <!-- <p
+                style=" font-size: 35px; font-family:'Courier New', Courier, monospace ;text-decoration:underline;text-decoration-thickness: 1px;">
+                Technical specifications:-</p> -->
+            <ol>
+                <li>Screen type
+                    <ul class="li">
+                        <li>Thin film transistor (TFT) active-matrix liquid crystal display (AMLCD)</li>
+                    </ul>
+                </li>
+                <li>Screen size
+                    <ul class="li">
+                        <li>Apple Cinema HD Display: 30 inches (29.7-inch viewable)</li>
+                    </ul>
+                </li>
+                <li>Resolutions
+                    <ul class="li">
+                        <li>2560 x 1600 pixels (optimum resolution)</li>
+                        <li>2048 x 1280</li>
+                        <li>1920 x 1200</li>
+                        <li>1280 x 800</li>
+                        <li>1024 x 640</li>
+
+                    </ul>
+                </li>
+                <li>User controls (hardware and software)
+                    <ul class="li">
+                        <li>Display Power</li>
+                        <li>System sleep, wake</li>
+                        <li>Brightness</li>
+                        <li>Monitor tilt</li>
+                    </ul>
+                </li>
+                <li>System Requirements
+                    <ul class="li">
+                        <li>Mac Pro, all graphic options</li>
+                        <li>MacBook Pro</li>
+                        <li>Power Mac G5 (PCI-X) with ATI Radeon 9650 or better or NVIDIA GeForce 6800 GT DDL or better
+                        </li>
+                        <liPower Mac G5 (PCI Express), all graphics options</li>
+                    </ul>
+                </li>
+            </ol>
+
+
+
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <form style="padding: 20px 20px;">
+                <div class="form-group">
+                    <label for="formGroupExampleInput">*Your name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="name">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">*Your review</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div><br>
+                <p>*Rating(1->highest,4->lowest)
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline1">4</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline2">3</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline2">2</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline2">1</label>
+                </div>
+                </p>
+            </form>
+            <div style="margin-left: 500px;">
+                <button type="button" class="btn btn-success">Continue</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
